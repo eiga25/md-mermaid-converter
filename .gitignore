@@ -30,3 +30,6 @@ settings.json
 examples/*_images/
 examples/*_converted/
 *_converted/
+
+# Promotion materials (local only)
+promotion/
