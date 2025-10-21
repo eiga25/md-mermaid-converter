@@ -32,18 +32,21 @@ npm install -g @mermaid-js/mermaid-cli
 
 ## 快速开始
 
-### 图形界面
+### 应该使用哪个界面？
 
-```bash
-python converter_gui.py
-```
+**CLI（命令行）** - 适合：
+- 🤖 自动化脚本和 CI/CD 流程
+- 📦 批量处理大型项目
+- 👨‍💻 专业开发者工作流
+- ♻️ 可重复、可脚本化的操作
 
-图形界面提供：
-- 配置管理（保存/加载/删除配置）
-- 可视化路径选择（文件夹或多文件）
-- 实时输出日志
-- 试运行模式
-- 语言切换（中文/English）
+**GUI（图形界面）** - 适合：
+- 👤 日常使用和一次性转换
+- 🔧 喜欢可视化工具的用户
+- ⚡ 快速配置和测试
+- 🎯 不需要命令行经验
+
+---
 
 ### 命令行界面
 
@@ -66,6 +69,21 @@ python convert_mermaid.py -i docs --recursive --export --format svg
 ```bash
 python convert_mermaid.py -i docs --recursive --render --keep-source --images-dir per-file
 ```
+
+### 图形界面
+
+对于喜欢图形界面的用户：
+
+```bash
+python converter_gui.py
+```
+
+图形界面提供：
+- 配置管理（保存/加载/删除配置）
+- 可视化路径选择（文件夹或多文件）
+- 实时输出日志
+- 试运行模式
+- 语言切换（中文/English）
 
 ## 输出选项
 

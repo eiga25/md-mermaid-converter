@@ -32,18 +32,21 @@ npm install -g @mermaid-js/mermaid-cli
 
 ## Quick Start
 
-### GUI Interface
+### Which Interface Should I Use?
 
-```bash
-python converter_gui.py
-```
+**CLI (Command Line)** - Best for:
+- 🤖 Automation scripts and CI/CD pipelines
+- 📦 Batch processing large projects
+- 👨‍💻 Professional developer workflows
+- ♻️ Repeatable, scriptable operations
 
-The GUI provides:
-- Profile management (save/load/delete configurations)
-- Visual path selection (folder or multiple files)
-- Real-time output log
-- Dry-run mode for testing
-- Language toggle (中文/English)
+**GUI (Graphical Interface)** - Best for:
+- 👤 One-time conversions and daily use
+- 🔧 Users who prefer visual tools
+- ⚡ Quick configuration and testing
+- 🎯 No command-line experience needed
+
+---
 
 ### CLI Interface
 
@@ -66,6 +69,21 @@ python convert_mermaid.py -i docs --recursive --export --format svg
 ```bash
 python convert_mermaid.py -i docs --recursive --render --keep-source --images-dir per-file
 ```
+
+### GUI Interface
+
+For users who prefer a graphical interface:
+
+```bash
+python converter_gui.py
+```
+
+The GUI provides:
+- Profile management (save/load/delete configurations)
+- Visual path selection (folder or multiple files)
+- Real-time output log
+- Dry-run mode for testing
+- Language toggle (中文/English)
 
 ## Output Options
 
