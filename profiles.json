@@ -1,0 +1,24 @@
+{
+  "default": {
+    "input": "./test_diagrams.md",
+    "recursive": false,
+    "format": "png",
+    "out_dir": ".",
+    "mode": "render-keep",
+    "clear_log": true,
+    "backup": true,
+    "per_file_images": false,
+    "images_dir": ""
+  },
+  "demo": {
+    "input": "./demo_tree",
+    "recursive": true,
+    "format": "png",
+    "out_dir": "./demo_tree_mermaid_rendered",
+    "mode": "render-keep",
+    "clear_log": true,
+    "backup": true,
+    "per_file_images": true,
+    "images_dir": ""
+  }
+}
