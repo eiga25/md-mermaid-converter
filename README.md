@@ -1,5 +1,9 @@
 # MD Mermaid Converter
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A powerful tool to convert Mermaid diagrams in Markdown files to PNG/SVG images, with both CLI and GUI interfaces.
 
 ## Features
@@ -157,10 +161,20 @@ You can save your own profiles in the GUI for quick reuse.
 - ✅ Content-based caching (SHA-1 hashing)
 - ✅ Modular design with clear separation of concerns
 
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE) file for details.
 
-## Version
+## Changelog
 
-1.0.0 - Initial Release
+### v1.0.0 (2025-10-21)
+- Initial release
+- CLI and GUI interfaces
+- Three rendering modes
+- Smart caching with content hashing
+- Bilingual support (Chinese/English)
+- Profile management

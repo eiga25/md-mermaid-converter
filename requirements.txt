@@ -1,0 +1,7 @@
+# MD Mermaid Converter - Python Dependencies
+
+# Note: This tool requires Node.js package @mermaid-js/mermaid-cli (mmdc)
+# Install with: npm install -g @mermaid-js/mermaid-cli
+
+# Python standard library only - no additional packages required
+# Minimum Python version: 3.10+
