@@ -27,6 +27,6 @@ Thumbs.db
 settings.json
 
 # Test outputs
-test_*_images/
-demo_tree_converted/
+examples/*_images/
+examples/*_converted/
 *_converted/

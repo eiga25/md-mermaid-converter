@@ -100,8 +100,9 @@ md-mermaid-converter/
 ├── profiles.json        # Saved GUI profiles
 ├── i18n.json           # Internationalization strings
 ├── settings.json       # User preferences (language)
-├── test_diagrams.md    # Sample Markdown for testing
-└── demo_tree/          # Demo folder structure for testing
+└── examples/           # Example files and demo folders
+    ├── test_diagrams.md
+    └── demo_tree/
 ```
 
 ## Examples

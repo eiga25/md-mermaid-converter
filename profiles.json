@@ -1,6 +1,6 @@
 {
   "default": {
-    "input": "./test_diagrams.md",
+    "input": "./examples/test_diagrams.md",
     "recursive": false,
     "format": "png",
     "out_dir": ".",
@@ -11,10 +11,10 @@
     "images_dir": ""
   },
   "demo": {
-    "input": "./demo_tree",
+    "input": "./examples/demo_tree",
     "recursive": true,
     "format": "png",
-    "out_dir": "./demo_tree_mermaid_rendered",
+    "out_dir": "./examples/demo_tree_converted",
     "mode": "render-keep",
     "clear_log": true,
     "backup": true,
