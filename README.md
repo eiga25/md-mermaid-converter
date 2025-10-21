@@ -1,6 +1,6 @@
 # MD Mermaid Converter
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -171,10 +171,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Changelog
 
-### v1.0.0 (2025-10-21)
+### v0.1.0 (2025-10-21)
 - Initial release
 - CLI and GUI interfaces
-- Three rendering modes
+- Three rendering modes (export, replace, keep source)
 - Smart caching with content hashing
 - Bilingual support (Chinese/English)
 - Profile management
